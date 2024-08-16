@@ -1,0 +1,128 @@
+:root{
+    --vermelha: #e40404e8;
+    --preta: #141414;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141414;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   margin-right: 10px;
+}
+
+header .logo{
+    margin-left: 10px;
+    color: var(--vermelha);
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+
+header nav a{
+      text-decoration: none;
+      color: #AAA;
+}
+
+header nav a:hover{
+    color: white;
+}
+
+.filme-principal{
+    font-size: 15px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/venom2.jpg');
+    height: 450px;
+
+    background-size: cover;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+
+.titulo{
+    font-size: 70px;
+    margin-left: 10px;
+}
+
+.botao{
+    border: none;
+    background-color: rgba(0,0,0,.50);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 7px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.filme-principal .container{
+     margin-right: 60px;
+     width: 40%;
+}
+
+.filme-imagem{
+    height: 40%;
+    width: 40%;
+    display: block;
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
+}
+
+.subtitulo{
+    margin-top: 5px;
+    font-size: 50px;
+    margin-left: 20px;
+    font-family: 'Arial Black';
+    cursor: pointer;
+
+}
+
+.subtitulo2{
+    margin-top: -60px;
+    font-size: 50px;
+    margin-left: 20px;
+    font-family: 'Arial Black';
+    cursor: pointer;
+
+}
+
+.subtitulo3{
+    margin-top: -60px;
+    font-size: 50px;
+    margin-left: 20px;
+    font-family: 'Arial Black';
+    cursor: pointer;
+
+}
