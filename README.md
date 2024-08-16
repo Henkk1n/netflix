@@ -1,0 +1,1 @@
+por algum motivo não é possível gerar todos os elementos do código pelo próprio VsCode, somente se utilizar a extensão "Live Server", por ela todos os elementos aparecem corretamente, se alguém saber identificar o problema e me informar agradeço.
